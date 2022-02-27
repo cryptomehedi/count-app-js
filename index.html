@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Count App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/3f43e11179.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-neutral-500">
+  <div class="container text-center mx-auto flex justify-center items-center h-screen">
+    <div class="p-2 shadow-lg shadow-orange-300 text-white w-96 border rounded-lg bg-gradient-to-r from-sky-500 to-indigo-500">
+      <h1 class="text-2xl">Count Number</h1>
+      <span class="count text-4xl">0</span>
+      <hr>
+      <div id="buttons">
+        <button id="down" class="hover:bg-red-600 hover:text-white bg-red-200 text-black border rounded-lg p-2 m-2 ring  focus:ring-offset-2 focus:ring-offset-orange-500">
+          <i class="fas fa-arrow-down"></i>
+          Down
+        </button>
+        <button id="reset" class="hover:bg-gray-600 hover:text-white bg-gray-200 text-black border rounded-lg p-2 m-2 ring  focus:ring-offset-2 focus:ring-offset-orange-500">
+          <i class="fas fa-spinner"></i>
+          Reset
+        </button>
+        <button id="up" class="hover:bg-green-600 hover:text-white bg-green-200 text-black border rounded-lg p-2 m-2 ring  focus:ring-offset-2 focus:ring-offset-orange-500">
+          <i class="fas fa-arrow-up"></i>
+          Up
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
